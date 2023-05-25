@@ -108,6 +108,8 @@ main {
   width: 582px;
   max-width: 584px;
   min-height: 44px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .center-buttons button {
