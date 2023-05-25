@@ -54,6 +54,10 @@ header {
   width: 2%;
 }
 
+.app-icons__svg {
+  width: 6%;
+}
+
 /* links */
 
 a {
