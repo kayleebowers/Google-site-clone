@@ -96,7 +96,7 @@ main {
 
 /* interactive section */
 
-.main__interactive-bar {
+.main__form {
   padding: 20px;
   max-height: 160px;
 }
