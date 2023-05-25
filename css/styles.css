@@ -21,6 +21,11 @@ header {
   height: 12%;
 }
 
+.profile-img {
+  width: 10%;
+  border-radius: 50%;
+}
+
 /* main */
 .main-logo {
   height: 30vh;
