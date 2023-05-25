@@ -49,16 +49,18 @@ header {
 }
 
 .header__right-side--links {
+  display: inline-block;
   padding-right: 15px;
+  margin-right: 5px;
 }
 
 .header__right-side--links a, .header__right-side--icons a {
   padding: 5px;
-  margin: 0 5px;
+  margin: 0 3px;
 }
 
-.header__right-side--icons {
-  padding: 4px;
+.header__right-side--icons a:hover {
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 
 header a {
@@ -69,6 +71,7 @@ header a {
   height: 32px;
   width: 32px;
   border-radius: 50%;
+  vertical-align: middle;
 }
 
 /* main */
@@ -122,6 +125,9 @@ main {
 .app-icons__svg {
   width: 24px;
   height: 24px;
+  fill: #5f6368;
+  opacity: 1;
+  vertical-align: middle;
 }
 
 /* links */
