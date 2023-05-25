@@ -19,6 +19,7 @@ header {
   width: 100%;
   flex: 1 0 50vw;
   padding: 6px;
+  margin-right: 1px;
   justify-content: space-between;
 }
 
@@ -43,20 +44,24 @@ header {
 .header__right-side {
   justify-content: flex-end;
   height: 48px;
-  padding: 5px;
-  margin: 0 5px;
+  padding: 2px;
+  margin: 0 2px;
   font: 13px/27px Roboto, Arial, sans-serif;
 }
 
 .header__right-side--links {
   display: inline-block;
-  padding-right: 15px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
-.header__right-side--links a, .header__right-side--icons a {
-  padding: 5px;
-  margin: 0 3px;
+.header__right-side--links a {
+  padding: 2px;
+  margin: 0 4px;
+}
+
+.header__right-side--icons a {
+  padding: 4px;
+  margin: 0 4px;
 }
 
 .header__right-side--icons a:hover {
