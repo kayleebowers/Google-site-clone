@@ -40,6 +40,11 @@ main {
   text-align: center;
 }
 
+.main-logo__img {
+  height: 92px;
+  width: 272px;
+}
+
 /* .search-bar,
 .center-buttons {
 
