@@ -158,6 +158,10 @@ main {
   text-align: center;
 }
 
+.center-buttons button:hover {
+  box-shadow: 0 0 0 1px lightgray;
+}
+
 #search-bar {
   line-height: 22px;
   font-family: Roboto,arial,sans-serif;
