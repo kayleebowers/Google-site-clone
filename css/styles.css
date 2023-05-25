@@ -17,7 +17,6 @@ header {
   flex-direction: row;
   justify-content: space-around;
   width: 100vw;
-  border: 1px solid blue;
   height: 12%;
 }
 
@@ -27,31 +26,32 @@ header {
 }
 
 /* main */
-.main-logo {
-  height: 30vh;
-  position: absolute;
-  top: 23%;
-  margin-top: -15vh;
+
+main {
+  height: 90vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo {
   text-align: center;
 }
 
-.search-bar,
+/* .search-bar,
 .center-buttons {
-  height: 20vh;
-  position: absolute;
-  width: 100%;
+
 }
 
 .search-bar {
-  top: 40%;
-  margin-top: -15vh;
+
 }
 
 .center-buttons {
-  top: 50%;
-  margin-top: -15vh;
-}
+
+} */
 
 /* Google's svgs */
 
