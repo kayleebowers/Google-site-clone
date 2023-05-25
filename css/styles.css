@@ -24,7 +24,6 @@ header {
 /* main */
 .main-logo {
   height: 30vh;
-  border: 1px solid red;
   position: absolute;
   top: 23%;
   margin-top: -15vh;
@@ -42,13 +41,15 @@ header {
 .search-bar {
   top: 40%;
   margin-top: -15vh;
-  border: 1px solid black;
 }
 
 .center-buttons {
   top: 50%;
   margin-top: -15vh;
-  border: 1px solid yellow;
+}
+
+.goxjub {
+  width: 2%;
 }
 
 /* footer */
