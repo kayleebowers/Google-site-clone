@@ -45,18 +45,17 @@ main {
   width: 272px;
 }
 
-/* .search-bar,
-.center-buttons {
-
-}
+/* search bar */
 
 .search-bar {
-
+  border: 1px solid #dfe1e5;
+  padding: 5px 8px 0 14px;
+  border-radius: 24px;
+  width: auto;
+  max-width: 584px;
+  min-height: 44px;
 }
 
-.center-buttons {
-
-} */
 
 /* Google's svgs */
 
