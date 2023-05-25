@@ -98,9 +98,14 @@ footer {
   padding: 0 20px;
 }
 
-footer a {
+footer a, .footer__settings {
   color: #70757a;
   padding: 15px;
+}
+
+.footer__settings {
+  background: none;
+  border: none;
 }
 
 .footer__left-side, .footer__right-side, .footer__center {
