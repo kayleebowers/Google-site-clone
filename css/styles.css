@@ -130,6 +130,14 @@ main {
   padding: 0 8px;
 }
 
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
+  width: 584px;
+  height: 58px;
+}
+
 .center-buttons button {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
@@ -137,9 +145,9 @@ main {
   color: #3c4043;
   font-family: Roboto,arial,sans-serif;
   font-size: 14px;
-  margin: 11px 4px;
+  margin: 11px 5px;
   padding: 0 16px;
-  line-height: 27px;
+  width: 142.5px;
   height: 36px;
   min-width: 54px;
   text-align: center;
