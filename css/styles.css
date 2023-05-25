@@ -48,8 +48,16 @@ header {
   margin-top: -15vh;
 }
 
-.goxjub {
+/* Google's svgs */
+
+.microphone__svg, .camera-icon__svg, .magnifying-glass__svg {
   width: 2%;
+}
+
+/* links */
+
+a {
+  text-decoration: none;
 }
 
 /* footer */
