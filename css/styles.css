@@ -11,13 +11,20 @@ body {
 }
 
 /* header */
+
 header {
   position: fixed;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 100vw;
-  height: 12%;
+  justify-content: space-between;
+  width: 100%;
+  flex: 1 0 50vw;
+}
+
+.header__left-side, .header__right-side {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile-img {
