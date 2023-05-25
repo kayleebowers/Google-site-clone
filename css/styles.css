@@ -18,25 +18,47 @@ header {
   flex-direction: row;
   width: 100%;
   flex: 1 0 50vw;
-  border: 1px solid red;
   padding: 6px;
   justify-content: space-between;
 }
 
 .header__left-side, .header__right-side {
-  border: 1px solid black;
   display: flex;
   align-items: center;
 }
 
 .header__left-side {
   justify-content: flex-start;
+  height: 48px;
+  padding: 5px;
+  margin: 0 5px;
+  color: #202124;
+}
+
+.header__left-side a {
+  padding: 5px;
+  margin: 0 5px;
 }
 
 .header__right-side {
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 48px;
-  padding: 0 4px;
+  padding: 5px;
+  margin: 0 5px;
+  font: 13px/27px Roboto, Arial, sans-serif;
+}
+
+.header__right-side--links {
+  padding-right: 15px;
+}
+
+.header__right-side--links a, .header__right-side--icons a {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.header__right-side--icons {
+  padding: 4px;
 }
 
 header a {
@@ -106,7 +128,6 @@ main {
 
 a {
   text-decoration: none;
-  padding: 15px;
   margin: 0;
 }
 
