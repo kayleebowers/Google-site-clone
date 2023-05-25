@@ -121,6 +121,15 @@ main {
   margin-top: -5px;
 }
 
+.search-area__right {
+  display: flex;
+  align-items: center;
+}
+
+.search-area__right a {
+  padding: 0 8px;
+}
+
 .center-buttons button {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
@@ -147,7 +156,6 @@ main {
   margin: 0;
   padding: 0;
   margin-bottom: 8px;
-  vertical-align: middle;
   font-size: 16px;
 }
 
@@ -161,6 +169,8 @@ main {
 .magnifying-glass__svg {
   height: 20px;
   width: 20px;
+  fill: #9aa0a6;
+  margin-top: 3px;
 }
 
 .app-icons__svg {
