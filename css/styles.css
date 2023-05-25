@@ -94,18 +94,18 @@ main {
   width: 272px;
 }
 
-/* interactive section */
+/* search area */
 
 .main__form {
   padding: 20px;
   max-height: 160px;
 }
 
-.search-bar {
+.search-area {
   border: 1px solid #dfe1e5;
   padding: 5px 8px 0 14px;
   border-radius: 24px;
-  width: auto;
+  width: 582px;
   max-width: 584px;
   min-height: 44px;
 }
@@ -125,6 +125,21 @@ main {
   text-align: center;
 }
 
+#search-bar {
+  line-height: 22px;
+  font-family: Roboto,arial,sans-serif;
+  line-height: 22px;
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
 /* Google's svgs */
 
 .microphone__svg, .camera-icon__svg {
@@ -135,10 +150,6 @@ main {
 .magnifying-glass__svg {
   height: 20px;
   width: 20px;
-}
-
-#search-bar {
-  line-height: 22px;
 }
 
 .app-icons__svg {
