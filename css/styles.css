@@ -100,10 +100,10 @@ footer {
 
 footer a {
   color: #70757a;
+  padding: 15px;
 }
 
 .footer__left-side, .footer__right-side, .footer__center {
-  border: 1px solid blue;
   display: flex;
   align-items: center;
 }
