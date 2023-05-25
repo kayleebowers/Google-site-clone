@@ -59,12 +59,12 @@ header {
   margin: 0 4px;
 }
 
-.header__right-side--icons a {
+.header__right-side--icons a, span {
   padding: 4px;
   margin: 0 4px;
 }
 
-.header__right-side--icons a:hover {
+.header__right-side--icons a:hover, span:hover {
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 
